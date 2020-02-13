@@ -1,0 +1,80 @@
+.copy-second h1 {
+  margin: 0;
+  color: #73cf89;
+  font-family: CircularBold;
+}
+
+.copy-second button {
+  background-color: white;
+  color: #a6e7d1;
+  font-family: CircularBold;
+  border-radius: 15px;
+  border: none;
+  padding: 5px 15px 6px 15px;
+  text-transform: capitalize;
+}
+
+.copy-second button:hover {
+  color: white;
+  background-color: #73cf89;
+}
+
+@media screen and (min-width: 601px) {
+  .copy-second {
+    margin-left: 90%;
+    min-width: 300px;
+  }
+
+  .copy-second h1 {
+    text-align: left;
+    font-size: 1.35em;
+    margin-bottom: -5px;
+  }
+
+  .copy-second button {
+    margin-top: 8%;
+    display:flex;
+    font-size: 18px;
+  }
+
+  .mobile-image-second {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 600px) {
+
+  .flex-container-second {
+    display: flex wrap;
+    align-content: center;
+    justify-content: center;
+
+  }
+
+  .mobile-image-second img {
+    margin-top: 0%;
+    height: 280px;
+    width: auto;
+    margin-left: 0%;
+    z-index: -5;
+  }
+
+  .copy-second h1 {
+    font-size: 1.25em;
+    margin-left: 0%;
+    text-align: center;
+    z-index: 1;
+  }
+
+  .copy-second button {
+    margin-left: 0%;
+    margin-bottom: -20%;
+    margin-top: 10%;
+    font-size: 18px;
+  }
+
+  .hero-second div {
+    background-color: #b9f2e1;
+    overflow: hidden;
+  }
+}

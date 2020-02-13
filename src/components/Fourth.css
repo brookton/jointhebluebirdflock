@@ -1,0 +1,77 @@
+.copy-fourth {}
+
+.copy-fourth h1 {
+  margin: 0;
+  color: #1e3c60;
+  font-family: CircularBold;
+}
+
+.copy-fourth button {
+  background-color: white;
+  color: #fe9c09;
+  font-family: CircularBold;
+  border-radius: 15px;
+  border: none;
+  padding: 5px 25px 6px 25px;
+  display: flex-start;
+  text-transform: capitalize;
+}
+
+.copy-fourth button:hover {
+  color: white;
+  background-color: #6ccc86;
+}
+
+@media screen and (min-width: 451px) {
+  .copy-fourth {
+    margin-top: 10%;
+    margin-right: 0%;
+  }
+
+  .copy-fourth h1 {
+    text-align: left;
+    margin-left: 0%;
+    font-size: 3em;
+  }
+
+  .copy-fourth button {
+    margin-top: 5%;
+    padding-top: 6px;
+    font-size: 20px;
+    margin-left: 0%;
+  }
+
+}
+
+@media screen and (max-width: 450px) {
+
+  .flex-container-fourth {
+    display: flex wrap;
+    align-content: center;
+    justify-content: center;
+
+  }
+
+  .mobile-image-fourth img {
+    margin-bottom: 5%;
+    height: 280px;
+    width: auto;
+    margin-left: 0%;
+    z-index: -5;
+  }
+
+  .copy-fourth h1 {
+    margin-left: 0%;
+    margin-bottom: 8%;
+    text-align: center;
+    z-index: 1;
+  }
+
+  .copy-fourth button {
+    margin-left: 0%;
+    margin-bottom: 0%;
+    margin-top: 0px;
+    font-size: 20px;
+  }
+
+}
