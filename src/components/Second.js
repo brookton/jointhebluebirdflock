@@ -5,7 +5,7 @@ import './Second.css'
 function Second(props) {
   return (
     <div className="Second">
-      <LazyHero  opacity="0" minHeight="800px"  parallaxOffset="0" imageSrc={ require('../images/lotions-four.jpg') } className="hero-second" isCentered="true" >
+      <LazyHero  opacity="0" minHeight="800px"  parallaxOffset="0" imageSrc={ require('../images/lotions.jpg') } className="hero-second" isCentered="true" >
       <div className="flex-container-second">
           <div className="mobile-image-second">
             <img src={ require('../images/lotions-mobile.jpg')}/>

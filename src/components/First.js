@@ -8,7 +8,7 @@ function First(props) {
       <LazyHero  opacity="0" minHeight="700px"  parallaxOffset="0" imageSrc={ require('../images/sport-classic-companion.png') } className="hero-first" isCentered="true" >
         <div className="flex-container-first">
           <div className="mobile-image-first">
-            <img src={ require('../images/sport-classic-companion-mobile-edit.png') }/>
+            <img src={ require('../images/sport-classic-companion-mobile.png') }/>
           </div>
           <div className="copy-first">
               <h1>Lotions,</h1>
