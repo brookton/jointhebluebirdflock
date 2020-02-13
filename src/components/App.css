@@ -3,6 +3,7 @@
   font-family: Circular;
   font-size: 30px;
   margin: -8px;
+  overflow: hidden;
 }
 
 .white {

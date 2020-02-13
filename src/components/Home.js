@@ -1,9 +1,9 @@
 import React from 'react';
 import Header from './Header'
 import BCorp from './bCorp'
+import First from './First'
 import Second from './Second'
 import Third from './Third'
-import Fourth from './Fourth'
 
 class Home extends React.Component {
   redirect(){
@@ -14,9 +14,9 @@ class Home extends React.Component {
     <div className="Home">
       <Header />
       <BCorp redirect={this.redirect}/>
+      <First redirect={this.redirect}/>
       <Second redirect={this.redirect}/>
       <Third redirect={this.redirect}/>
-      <Fourth redirect={this.redirect}/>
     </div>
   );
 }
